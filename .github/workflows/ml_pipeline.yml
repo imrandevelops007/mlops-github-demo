@@ -1,9 +1,9 @@
 name: ML Pipeline with GitHub Actions
-  on:
-  push:
-    branches:
+on:
+    push:
+      branches:
       - main
-  workflow_dispatch:
+    workflow_dispatch:
 
 jobs:
   train-evaluate-register:
